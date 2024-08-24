@@ -1,11 +1,3 @@
-<br/><br/>
-<p align="center">
-  <img width="450" src="https://github.com/annahedstroem/sanity-checks-revisited/blob/main/emprt_smprt_logo_alphamapped.png">
-<!--<h3 align="center"><b>Evaluate the Explanation Faithfulness</b></h3>
-<p align="center">
-  PyTorch-->
-
-  </p>
 
 This repository contains the code and experiments for the paper **[From Flexibility to Manipulation: The Slippery Slope of XAI Evaluation](https://openreview.net/forum?id=fd7g9nwI2R)** by Wickstrøm et al., 2024. 
 
@@ -32,34 +24,10 @@ If you find this work interesting or useful in your research, use the following 
 ```
 This work has been published as a part of the ECCV 2024 Workshop on Explainable Computer Vision: Where are We and Where are We Going? (Proceedings Track).
 
-## Repository overview
-
-The repository is organised for ease of use:
-- The `src/` folder contains all necessary functions.
-- The `nbs/` folder includes notebooks for generating the plots in the paper and for benchmarking experiments.
 
 ## Paper highlights 📚
 
 The lack of ground truth explanation labels is a fundamental challenge for quantitative evaluation in explainable artificial intelligence (XAI). This challenge becomes especially problematic when evaluation methods have numerous hyperparameters that must be specified by the user, as there is no ground truth to determine an optimal hyperparameter selection. It is typically not feasible to do an exhaustive search of hyperparameters so researchers typically make a normative choice based on similar studies in the literature, which provides great flexibility for the user. In this work, we illustrate how this flexibility can be exploited to manipulate the evaluation outcome. We frame this manipulation as an adversarial attack on the evaluation where seemingly innocent changes in hyperparameter setting significantly influence the evaluation outcome. We demonstrate the effectiveness of our manipulation across several datasets with large changes in evaluation outcomes across several explanation methods and models. Lastly, we propose a mitigation strategy based on ranking across hyperparameters that aims to provide robustness towards such manipulation. This work highlights the difficulty of conducting reliable XAI evaluation and emphasizes the importance of a holistic and transparent approach to evaluation in XAI.
-
-## Installation
-
-Install the necessary packages using the provided [requirements.txt](https://annahedstroem/sanity-checks-revisited/blob/main/requirements.txt):
-
-```bash
-pip install -r requirements.txt
-```
-
-## Package requirements 
-
-Required packages are:
-
-```setup
-python>=3.10.1
-torch>=2.0.0
-quantus>=0.5.0
-captum>=0.6.0
-```
 
 ### Thank you
 
