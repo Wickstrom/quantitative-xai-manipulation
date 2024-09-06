@@ -1,5 +1,5 @@
 
-This repository contains the code and experiments for the paper **[From Flexibility to Manipulation: The Slippery Slope of XAI Evaluation](https://openreview.net/forum?id=fd7g9nwI2R)** by Wickstrøm et al., 2024. 
+This repository contains code for the paper **[From Flexibility to Manipulation: The Slippery Slope of XAI Evaluation](https://openreview.net/forum?id=fd7g9nwI2R)** by Wickstrøm et al., 2024. See the notebook "getting_started_with_manipulation.ipynb" to get started with the code. 
 
 <!--[![Getting started!](https://colab.research.google.com/assets/colab-badge.svg)](anonymous)-->
 <!--![Python version](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue.svg)-->
